@@ -9,66 +9,15 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    permissions:
-     contents: write
     steps:
-      - name: Metrics 1
-        uses: lowlighter/metrics@latest
+      # See action.yml for all options
+      - uses: lowlighter/metrics@latest
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
-          filename: metrics1.svg
-          user: sisuolv
-          base: header, repositories, community
+          # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
           config_timezone: Asia/Hong_Kong
-          
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          
-          
-          #languages
-          plugin_languages: yes
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_limit: 16
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
-          plugin_lines: yes
-
-
-      - name: Metrics 2
-        uses: lowlighter/metrics@latest
-        with:
-          # Your GitHub token
-          token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
-          filename: metrics2.svg
-          user: sisuolv
-          base: ""
-          config_timezone: Asia/Hong_Kong
-          
+          config_padding: 10%
+          plugin_introduction: yes
           plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-          
-          #starred repositories
-          plugin_stars: yes
-          plugin_stars_limit: 2
-
-         #topics
-          plugin_topics: yes
-          plugin_topics_limit: 15
-          plugin_topics_mode: starred
-          plugin_topics_sort: stars
-
-          use_prebuilt_image: yes
+          plugin_achievements_display: compact
