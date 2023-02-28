@@ -9,8 +9,6 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -18,3 +16,4 @@ jobs:
           config_timezone: Asia/Hong_Kong
           config_padding: 10%
           plugin_achievements: yes
+          plugin_achievements_display: compact
