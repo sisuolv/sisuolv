@@ -1,21 +1,29 @@
 name: Metrics
 on:
-  # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
-  # Lines below let you run workflow manually and on each commit (optional)
-  push: {branches: ["master", "main"]}
+  schedule:
+    - cron: '0 * * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+     contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Metrics 1
+        uses: lowlighter/metrics@latest
         with:
+          # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          filename: metrics.svg
+          user: sisuolv
           base: header, repositories
           config_timezone: Asia/Hong_Kong
-          config_padding: 10%
-          plugin_lines: yes
+
           plugin_achievements: yes
           plugin_achievements_display: compact
-
+          plugin_lines: yes
