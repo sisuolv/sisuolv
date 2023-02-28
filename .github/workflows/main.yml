@@ -14,8 +14,9 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
+          config_timezone: Asia/Hong_Kong
+          config_padding: 10%
           plugin_lines: yes
           plugin_achievements: yes
           plugin_achievements_display: compact
-          config_timezone: Asia/Hong_Kong
-          config_padding: 10%
+
