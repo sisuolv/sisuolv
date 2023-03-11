@@ -21,7 +21,7 @@ jobs:
           # Options
           filename: metrics.svg
           user: sisuolv
-          base: header, repositories
+          base: header, repositories,activity, community, metadata
           config_timezone: Asia/Hong_Kong
 
           plugin_achievements: yes
