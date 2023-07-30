@@ -24,6 +24,4 @@ jobs:
           base: header, repositories
           config_timezone: Asia/Hong_Kong
 
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_lines: yes
+          plugin_achievements: no
