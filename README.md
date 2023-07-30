@@ -13,6 +13,7 @@ If you are seeking any form of **academic cooperation**, please feel free to ema
 ### 📎 Homepages
 - Personal Pages: https://sisuolv.github.io/
 - GitHub: https://github.com/sisuolv
+- LinkedIn: https://www.linkedin.com/in/sisuolv/
 - Kaggle: https://www.kaggle.com/sisuolv
 - CV: https://sisuolv.github.io/docs/Sisuo_Lyu_CV.pdf
 
