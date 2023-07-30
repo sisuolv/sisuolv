@@ -25,3 +25,5 @@ jobs:
           config_timezone: Asia/Hong_Kong
 
           plugin_achievements: no
+          plugin_achievements_display: compact
+          plugin_lines: yes
