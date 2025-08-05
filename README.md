@@ -1,5 +1,5 @@
 # Hi there 👋
-![SisuoLYU's Github Stats](/metrics.svg)
+![Sisuo Lyu's Github Stats](/metrics.svg)
 
 ### 🎓About Me
 I am currently a first-year MPhil student at [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/) in [Data Science and Analytics](https://dsa.hkust-gz.edu.cn/), supervised by Prof. [Yuxuan Liang](https://yuxuanliang.com/) and Prof. [Hui Xiong](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIONG-Hui/xionghui).
