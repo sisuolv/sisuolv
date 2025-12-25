@@ -6,7 +6,7 @@ I am currently a first-year MPhil student at [The Hong Kong University of Scienc
 
 My research interests include **Data Mining**, **Recommendation Systems**, and **Computer Vision**.
 
-I hold a B.Eng degree in **Computer Science and Technology** from [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/index.html), advised by Prof. [Miao Zhang](http://faculty.hitsz.edu.cn/zhangmiao). Fortunately, I have also received guidance from Prof. [Shanshan Feng](https://victorsfeng.github.io/) and Prof. [Yongyong Chen](http://faculty.hitsz.edu.cn/chenyongyong).
+I hold a B.Eng degree in **Computer Science and Technology** from [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/index.html), advised by Prof. [Miao Zhang](http://faculty.hitsz.edu.cn/zhangmiao). Fortunately, I have also received guidance from Prof. [Shanshan Feng](https://victorsfeng.github.io/), Prof. [Yongyong Chen](http://faculty.hitsz.edu.cn/chenyongyong) and Prof. [Baotian Hu](https://homepage.hit.edu.cn/hubaotian?lang=zh).
 
 If you are interested in any form of **academic collaboration**, please feel free to contact me at sisuolyu@outlook.com.
 
